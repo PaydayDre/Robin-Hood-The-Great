@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Robin Hood the Great</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" >
+       <meta charset="utf-8">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="css/level-one.css">
+
+</head>
+<body>
+<div class="container" style="width:80%;padding-left:20px;padding-top:20px;">
+<ul>
+  <li><a class=" " href="index.html">Home Page</a></li>
+  <li style="float:right"><a class=" " href="contact-me.html">Contact Me</a></li>
+  <li style="float:right"><a class="" href="about-me.html">About Me</a></li>
+</ul>
+</div><!-- end of navigation container  -->
+<br>
+<div style="clear:both"></div>
+<center><h1 style="color:white;">Level One</h1></center>
+<div style="clear:both"></div>
+<div class="container"><!-- begin container to hold game screen -->
+	<div id="mainContainer">
+        <canvas id="myCanvas"></canvas><div style="clear:both"></div>
+        <canvas id="animCanvas"></canvas><div style="clear:both"></div>
+        <h1 id="score">0</h1><div style="clear:both"></div>
+        <div id="showPoint"><p id="arrs">&uarr;</p><span class="u">&uarr; +1</span></div><div style="clear:both"></div>
+        <div id="startMenu">
+            <span><img src="media/images/robin.png" height="150px" width="150px"></span><h1 id="title"><span style="font-size:60px">R</span>OBIN HOOD<br><span style="font-size:60px">THE G</span>REAT</h1>
+            <button>CLICK HERE TO START</button>
+            <h2><span id="best">0</span><br>Your Best</h2>
+			<a class="btn btn-lg" href="level-two.html" style="border-bottom:1px;"><button>Go To Level Two</button></a> 
+    </div>
+	<div style="clear:both"></div>
+ </div>
+ </div><!-- end of container  -->
+<br>
+<div style="clear:both"></div>
+<div class="container"><p id="footer">&copy; Copyright 2021</p></div>
+<script src="js/level-one.js"></script>
+</body>
+</html>
